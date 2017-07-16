@@ -1,0 +1,19 @@
+{
+  "connection": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "swagger": {
+    "info": {
+      "title": "Teste  de Documentação API",
+      "version": "1",
+      "description": "Descrição da API",
+      "contact": {
+        "name": "Hayssa Costa",
+        "email":"yaddayadda@gmail.com"
+      }
+    },
+    "documentationPath": "/doc/"
+  },
+  "routes": "./app/routes/*.route.js"
+}
